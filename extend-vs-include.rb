@@ -39,18 +39,18 @@ end
 
 Foo2.new.sumVariables
 
-class Foo2
+class Foo3
     
 end
 
 # you can use "extend" on classes or objects, 
 # "include" only works on classes.  
-foo = Foo2.new
+foo = Foo3.new
 foo.extend SomeModule
 foo.anInstanceMethod
 
-class Foo3
+class Foo4
     extend SomeModule
 end
 
-Foo3.anInstanceMethod
+Foo4.anInstanceMethod
